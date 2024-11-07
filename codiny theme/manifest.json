@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Codiny-ext",
+  "description": "AI코디니를 더 편하게 사용할 수 있는 여러가지 기능들.",
+  "version": "0.1.5",
+  "content_scripts": [
+    {
+      "matches": ["https://*.aicodiny.com/*"],
+      "css": ["theme.css"],
+      "js": ["theme.js"]
+    }
+  ]
+}
